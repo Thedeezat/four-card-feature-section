@@ -74,7 +74,7 @@ body {
 .container__cards div:nth-child(3) {
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
-  border-top-color: #fcaf4a;
+  border-top-color: #549ef2;
 }
 
 .container__cards div:nth-child(4) {
