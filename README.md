@@ -25,9 +25,7 @@ Users should be able to:
 ![](./desktop solution.jpg)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://thedeezat.github.io/four-card-feature-section/)
 
 ### Built with
 
