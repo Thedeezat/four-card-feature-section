@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  min-width: 375px;
+  background: #fafafa;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 30px;
+  }
+}
+
+.container {
+  max-width: 1440px;
+  font-size: 15px;
+  padding-top: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-top: 40px;
+  }
+}
+
+.container__h1 {
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #4c4e61;
+}
+
+.container__h1__span {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .container__h1 {
+    font-size: 22px;
+  }
+}
+
+.container__p {
+  max-width: 500px;
+  padding: 10px 0 30px 0;
+  margin: auto;
+  color: #a3a5ae;
+}
+
+.container__cards div:first-child {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  border-top-color: #45d3d3;
+}
+
+.container__cards div:nth-child(3) {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  border-top-color: #fcaf4a;
+}
+
+.container__cards div:nth-child(4) {
+  border-top-color: #fcaf4a;
+}
+
+@media screen and (max-width: 768px) {
+  .container__cards div:first-child {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  .container__cards div:nth-child(3) {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+.container div {
+  width: 25%;
+  height: 210px;
+  position: relative;
+  background: #fff;
+  text-align: left;
+  display: inline-block;
+  margin: 15px;
+  color: #a3a5ae;
+  padding: 20px;
+  border-radius: 5px;
+  border-top: 3px solid #ea5353;
+  -webkit-box-shadow: 0px 10px 15px rgba(163, 165, 174, 0.3);
+          box-shadow: 0px 10px 15px rgba(163, 165, 174, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .container div {
+    width: 100%;
+    margin: 40px 0;
+  }
+}
+
+.container div h2 {
+  color: #4c4e61;
+  padding-bottom: 2px;
+}
+
+.container div img {
+  position: absolute;
+  bottom: 15px;
+  width: 75px;
+  right: 25px;
+  width: 55px;
+}
+/*# sourceMappingURL=site.css.map */

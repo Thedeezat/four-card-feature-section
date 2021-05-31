@@ -1,0 +1,114 @@
+$Light-Gray: hsl(0, 0%, 98%);
+$Grayish-Blue: hsl(229, 6%, 66%);
+$Dark-Blue: hsl(234, 12%, 34%);
+
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+@mixin tablet {
+  @media screen and (max-width: 768px){
+    @content;
+  }
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  min-width: 375px;
+  background: $Light-Gray;
+  
+  @include tablet{
+    padding: 30px;
+  }
+}
+.container{
+  max-width: 1440px;
+  font-size: 15px;
+  padding-top: 80px;
+  margin: 0 auto;
+  text-align: center;
+
+  @include tablet{
+    padding-top: 40px;
+  }
+  &__h1{
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    color: $Dark-Blue;
+    &__span{
+      font-weight: 600;
+    }
+    @include tablet{
+      font-size: 22px;
+    }
+  }
+  &__p{
+    max-width: 500px;
+    padding: 10px 0 30px 0;
+    margin: auto;
+    color: $Grayish-Blue;
+  }
+  &__cards{
+    div:first-child{
+      transform: translateY(50%);
+      border-top-color: $Cyan;
+    }
+    div:nth-child(3){
+      transform: translateY(50%);
+      border-top-color: $Orange;
+    }
+    div:nth-child(4){
+      border-top-color: $Orange;
+    }
+    @include tablet{
+      div:first-child{
+        transform: translateY(0%);
+      }
+      div:nth-child(3){
+        transform: translateY(0%);
+      }
+    }
+  }
+  div{
+    width: 25%;
+    height: 210px;
+    position: relative;
+    background: #fff;
+    text-align: left;
+    display: inline-block;
+    margin: 15px;
+    color: $Grayish-Blue;
+    padding: 20px;
+    border-radius: 5px;
+    border-top: 3px solid $Red;
+    box-shadow: 0px 10px 15px rgba($Grayish-Blue, .3);
+
+    @include tablet{
+      width: 100%;
+      margin: 40px 0;
+    }
+    h2{
+      color: $Dark-Blue; 
+      padding-bottom: 2px;
+    }
+    img{
+      position: absolute;
+      bottom: 15px;
+      width: 75px;
+      right: 25px;
+      width: 55px;
+    }
+  }
+}
