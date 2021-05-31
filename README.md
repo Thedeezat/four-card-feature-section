@@ -36,6 +36,6 @@ Users should be able to:
 - CSS Grid
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/@Thedeezat)
-- Twitter - [@yourusername](https://www.twitter.com/@Thedeezat)
+- Frontend Mentor - [@Thedeezat](https://www.frontendmentor.io/profile/@Thedeezat)
+- Twitter - [@Thedeezat](https://www.twitter.com/@Thedeezat)
 
