@@ -20,7 +20,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Links
-- Live Site URL: [https://thedeezat.github.io/four-cards/](https://thedeezat.github.io/four-cards/)
+- Live Site URL: [https://thedeezat.github.io/four-card-feature-section/](https://thedeezat.github.io/four-card-feature-section/)
 
 ### Built with
 
